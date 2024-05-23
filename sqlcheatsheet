@@ -20,6 +20,13 @@ select * from student;// to see table data;dql command data query language
 insert into student(name,age,dept);
 update student set age=18 where name='krish';//for updation
 delete from student where dept='cse';//delete particular;
+delete from custor where monnu is null;
+update cus set mob=8789 whre k='krish';
+delete from customer where zip-code=76768;
+select *from customer where a>9;
+alter table customer drop column mob;
+
+
 
 
 
