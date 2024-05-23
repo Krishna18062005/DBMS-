@@ -9,5 +9,6 @@ select avg(marks) from student group by dept order by count_stdname desc;
 select avg(sal) from employee group by dept order by avg(sal) desc limit 1;
 
 select * from employee ;
+select avg(sal) from employee group by dept having avg(salary) <9988;
 
 
