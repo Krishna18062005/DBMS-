@@ -1,0 +1,13 @@
+Aggregate functions;
+sum();
+max,min,avg,count;
+select sum(mark) as totalmarks from student ;
+select sdname,amrk from student;
+select sdname from student orderby mark desc;//asc
+select avg(marks) from student group by dept ;
+select avg(marks) from student group by dept order by count_stdname desc;
+select avg(sal) from employee group by dept order by avg(sal) desc limit 1;
+
+select * from employee ;
+
+
