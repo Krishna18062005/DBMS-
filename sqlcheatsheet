@@ -1,0 +1,29 @@
+SQl vs No Sql 
+Types of data;
+structured data--> have a defined structure;
+unstructured data--> eg social media;
+semi structured data--> email ;
+relational database --> table form structure form we use sql (data in table format)
+non relational database--> no sql (data document ,pdf)
+Sql---> Structured Query Language;
+ddl-->data definition language-->create,alter,drop,truncate
+create database kri;
+use kri;
+create table krish(Name varchar(20),Age int,Department varchar(20),Salary int);
+alter table krish add column degree;
+alter table krish change deparment dept varchar(20);
+drop table krish;  
+truncate table teacher;//table apdiye irukum data ellam delete agidum
+dml-->data manipulation language;
+create table student(name varchar(100),age int,dept varchar(100));
+select * from student;// to see table data;dql command data query language
+insert into student(name,age,dept);
+update student set age=18 where name='krish';//for updation
+delete from student where dept='cse';//delete particular;
+
+
+
+
+
+
+
